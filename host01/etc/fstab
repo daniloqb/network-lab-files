@@ -1,0 +1,18 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Wed Jun 21 18:08:10 2017
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=0a020820-a8bc-46da-8715-8b3927a6c947 /                       ext4    defaults        1 1
+UUID=8691bd97-4092-48eb-b595-ae13764fcbd3 /boot                   ext4    defaults        1 2
+UUID=a1419b40-8fc5-4491-a21d-f45ccf4a2c87 /home                   ext4    defaults        1 2
+UUID=0c65cf25-775a-4b4c-9e66-cb3f035f446c swap                    swap    defaults        0 0
+
+
+#KVM pool
+
+192.168.0.14:/var/lib/libvirt/images	/var/lib/libvirt/images	nfs	defaults	0	0
+
