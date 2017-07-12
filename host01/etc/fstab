@@ -15,4 +15,5 @@ UUID=0c65cf25-775a-4b4c-9e66-cb3f035f446c swap                    swap    defaul
 #KVM pool
 
 192.168.0.14:/var/lib/libvirt/images	/var/lib/libvirt/images	nfs	defaults	0	0
+192.168.0.14:/x-files/disks		/x-files/disks		nfs	defaults	0	0
 
